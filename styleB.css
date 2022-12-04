@@ -1,0 +1,39 @@
+body{
+    display:flex;
+    /* vertically */
+    flex-direction: row;
+    /* locate at the center */
+    justify-content: left;
+    /* text located at the center of each box */
+    align-items: center;
+}
+.blocky{
+    display: block;
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    border-left:dotted #D0D0FF 10px;
+    text-align: center;
+    font-size: 40px;
+    font: Tahoma;
+}.blue {
+    justify-content: left;
+    flex-direction:row;
+    margin-right: 10px;
+    align-items: center;
+  }
+  
+  .lightblue {
+    justify-content: left;
+    flex-direction:row;
+    margin-right: 10px;
+    align-items: center;
+  }.final{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+
+
+  }.blocky:hover{
+    background-color: bisque;
+  }
